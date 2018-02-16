@@ -23,6 +23,9 @@ img {
 }
 #programmation {background-image: url(images/street-cosmo.jpg);
 }
+.liste-artistes{
+	background-color: white;
+}
 #prix {
 	height: 100vh
 }
@@ -38,7 +41,7 @@ img {
 #contact {
 	color: white;
 }
-.contact-liens {
+#contact {
 	background-color: black;
 	height: 100vh
 }
