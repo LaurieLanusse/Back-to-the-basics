@@ -5,3 +5,40 @@ img {
 #banner {
 	height: 100vh
 }
+#evenement {
+	height: 100vh
+}
+#evenement { 
+	background: #3e5151; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3e5151, #decba4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3e5151, #decba4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.description-evenement {
+	background-color: white;
+}
+
+#programmation {
+	height: 100vh
+}
+#programmation {background-image: url(images/street-cosmo.jpg);
+}
+#prix {
+	height: 100vh
+}
+#média {
+	height: 100vh
+}
+#quisommesnous {
+	height: 100vh
+}
+#contact {
+	height: 100vh
+}
+#contact {
+	color: white;
+}
+.contact-liens {
+	background-color: black;
+	height: 100vh
+}
