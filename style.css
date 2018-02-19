@@ -1,27 +1,39 @@
-img {
+#logo {
 	width: 60px;
 	height: 60px;
 }
-#banner {
-	height: 100vh
+#navbar {
+	background-color: black;
+}
+.navbar {
+	text-align: center;
 }
 #evenement {
-	height: 100vh
+	background: #070000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-#evenement { 
-	background: #3e5151; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3e5151, #decba4); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3e5151, #decba4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#evenement {
+	width: 100vw;
 }
-
 .description-evenement {
-	background-color: white;
+	background-color: white, 255;
+	color: white;
+	padding: 70px 70px 70px 70px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 1px solid white;
+	text-align: justify;
+	width: 700px
+	
+}
+.btn btn-secondary {
+	color: white;
 }
 
 #programmation {
 	height: 100vh
-}
-#programmation {background-image: url(images/street-cosmo.jpg);
+	background-image: url(images/street-cosmo.jpg);
 }
 .liste-artistes{
 	background-color: white;
@@ -37,11 +49,50 @@ img {
 }
 #contact {
 	height: 100vh
-}
-#contact {
-	color: white;
-}
-#contact {
+	color: #FFFFFF;
 	background-color: black;
 	height: 100vh
+}
+.contact {
+	color: white;
+}
+#DH-contact {
+	width: 500px;
+	height: 500px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.réseaux {
+	width: 60px;
+	height: 60px;
+	margin: 0px;
+}
+#facebook {
+	color: blue;
+	width: 60px;
+	height: 60px;
+}
+#youtube {
+	color: red;
+	width: 60px;
+	height: 60px;
+}
+#soundcloud {
+	color: orange;
+	width: 60px;
+	height: 60px;
+}
+#mixcloud {
+	color: white;
+	width: 60px;
+	height: 60px;
+}
+
+#footer {
+	text-align: center;
+	margin-top: -100px;
+}
+ul {
+list-style-type: none;
 }
