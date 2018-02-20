@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<title>Back to the basics</title>
 	</head>
 	<body>
@@ -20,24 +20,22 @@
 			</ul>
 		</nav>
 		<div id="banner">
-			<H1>Back to the basics</H1>
+			<h1 id="big-title">Back to the basics</h1>
 			<p>Dynam'hit vous attends pour un retour aux sources, le hip hop reprends sa place</p>
 			<p>Dynam'hit crée un evenement autour du hip hop début mai ! La soirée se déroulera chronologiquement a travers la musique alors viens revivre l'age d'or du hip hop.</p>
 		</div>
 		<div class="container-fluid">
-			<div class="row"> 
-		<div id="evenement">
-				<div class="col-6 offset-3">
-			<div class="description-evenement">
-				<h2>Evenement</h2>
-				<p>L’idée paraît anodine mais il n’en est rien... Dynam’hit vous dévoile le grand jeu avec cet évènement haut en couleur. Le Hip Hop revient au coeur des débats ! Cette petite radio va vous faire voyager pour Brooklyn ou même Los Angeles en un rien de temps. La soirée reprendra la création de ce style urbain, basé sur le rythme jazzy et inspiré de la disco funk afro-américaine. <br><br><br> Venez vite redécouvrir les origines du hip Hop </br></br></br></p>
-				<button type="button" class="btn btn-secondary btn-lg" ><a href="#programmation">Découvrir les artistes</a></button>
-				
-
-
+			<div class="row">
+				<div id="evenement">
+					<div class="col-6 offset-3">
+						<div class="description-evenement">
+							<h2>Evenement</h2>
+							<p>L’idée paraît anodine mais il n’en est rien... Dynam’hit vous dévoile le grand jeu avec cet évènement haut en couleur. Le Hip Hop revient au coeur des débats ! Cette petite radio va vous faire voyager pour Brooklyn ou même Los Angeles en un rien de temps. La soirée reprendra la création de ce style urbain, basé sur le rythme jazzy et inspiré de la disco funk afro-américaine. <br><br><br> Venez vite redécouvrir les origines du hip Hop </br></br></br></p>
+							<a href="#programmation"><button type="button" class="btn btn-secondary btn-lg" >Découvrir les artistes</button></a>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-		</div>
 		</div>
 		<div id="programmation">
 			<div class="liste-artistes">
@@ -49,14 +47,72 @@
 			<h2>Prix</h2>
 			<p>Tarif</p>
 		</div>
-		<div id="média" >
-			<h2>Média</h2>
-			<p>Redirection vers les sites</p>
+		<div id="webzine" >
+			<h2>Webzine</h2>
+			<p>Articles du site</p>
 		</div>
-		<div id="quisommesnous">
-			<h2>Qui sommes nous</h2>
-			<p>Présentation asso</p>
+		
+		
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-lg-5 présentation mep" id="quisommesnous">
+		
+			<h2 id="quisommesnous">Qui sommes nous</h2>
+					<p>Dynam'Hit est une web radio étudiante qui a pour vocation de faire découvrir les différents styles musicaux qui animent l'équipe. Nous partageons également des articles sur les dernières sorties, des live report sur des concerts variés et bien évidemment nos émissions sont en replay pour que tous les internautes puissent nous rejoindrent quand ils le souhaitent ! <br><br> Collectif très éclectique et surtout amoureux de la musique nous souhaitons partager cette passion de diverses façons (événement, playlists, articles) pour créer un engouement musicale dans la ville  de marseille.</br></br></p>
+					<p><i>nom des gens de l'équipe de gauche à droite en partant du haut</i></p>
+				</div>
+				<div class="col-xs-12 col-lg-7">
+					<img id="equipe" src="images/équipe.jpg">
+					
+				</div>
+			</div>
 		</div>
+		
+		<form>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Nom</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nom">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Adresse email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+ 
+  <div class="form-group">
+    <label for="exampleTextarea">Votre message</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </div>
+ 
+  <fieldset class="form-group">
+    <legend>Radio buttons</legend>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Option one is this and that&mdash;be sure to include why it's great
+      </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+        Option two can be something else and selecting it will deselect option one
+      </label>
+    </div>
+    <div class="form-check disabled">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+        Option three is disabled
+      </label>
+    </div>
+  </fieldset>
+  <div class="form-check">
+ 
+  </div>
+  <button type="submit" class="btn btn-primary">Envoyer</button>
+</form>
+
+		
 		<div id="contact">
 			<h2 class="contact">Contact</h2>
 			<p class="contact">Envoyez nous un message
@@ -67,7 +123,6 @@
 			<ul class="list-inline">
 				
 				<li class="list-inline-item"><a href="https://www.youtube.com/channel/UCXCHGgUMp3RQ3UWHAQjC6zg" target="_blank"><i class="fab fa-youtube" id="youtube"></i></a></li>
-				
 				<li class="list-inline-item"><a href="https://www.facebook.com/dynamhit.webradio/" target="_blank"><i class="fab fa-facebook-square" id="facebook"></i></a></li>
 				<li class="list-inline-item"><a href="https://soundcloud.com/dynamhit-webradio" target="_blank"><i class="fab fa-soundcloud" id="soundcloud"></i></a></li>
 				<li class="list-inline-item"><a href="https://www.mixcloud.com/Dynamhitwebradio/" target="_blank"><i class="fab fa-mixcloud" id="mixcloud"></i></a></li>

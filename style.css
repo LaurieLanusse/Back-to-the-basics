@@ -4,10 +4,38 @@
 }
 #navbar {
 	background-color: black;
+	color: white;
 }
 .navbar {
 	text-align: center;
 }
+#navbar a {
+  color: lightgrey;
+  font-size: 20px;
+}
+#navbar a:hover {
+  color: white;
+}
+@font-face {
+	font-family: "painterz";
+	src: url("fonts/painterz.ttf");
+}
+
+#big-title {
+	font-family: "painterz";
+	font-size: 6.5rem;
+	text-align: center;
+	}
+
+#banner {
+	background-color: black;
+	color:white;
+	padding-bottom: 1px;
+}
+#banner p {
+	text-align: center;
+}
+
 #evenement {
 	background: #070000;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -27,31 +55,50 @@ background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+
 	width: 700px
 	
 }
-.btn btn-secondary {
-	color: white;
+.btn-secondary {
+  color: white;
+  background-color: grey;
+  border-color: grey;
+}
+
+.btn-secondary:hover {
+  color: grey;
+  background-color: white;
+  border-color: white;
 }
 
 #programmation {
 	height: 100vh
-	background-image: url(images/street-cosmo.jpg);
 }
 .liste-artistes{
 	background-color: white;
 }
 #prix {
-	height: 100vh
+	height: 100vh;
 }
-#média {
-	height: 100vh
+#webzine {
+	height: 100vh;
 }
 #quisommesnous {
-	height: 100vh
+	text-align: justify;
+	
 }
+
 #contact {
-	height: 100vh
+	height: 100vh;
 	color: #FFFFFF;
 	background-color: black;
-	height: 100vh
+	height: 100vh;
+}
+.mep {
+	padding-right: 50px;
+	padding-left: 80px;
+}
+
+#equipe {
+	height: 500px;
+	width: auto;
+	margin-bottom: 50px;
 }
 .contact {
 	color: white;
@@ -61,7 +108,7 @@ background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+
 	height: 500px;
 	display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
 }
 .réseaux {
 	width: 60px;
@@ -93,6 +140,7 @@ background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+
 	text-align: center;
 	margin-top: -100px;
 }
+
 ul {
 list-style-type: none;
 }
