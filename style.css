@@ -1,3 +1,12 @@
+a:link 
+{ 
+text-decoration:none; 
+} 
+
+a { 
+	color: inherit; 
+}
+
 #logo {
 	width: 60px;
 	height: 60px;
@@ -79,17 +88,37 @@ background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+
 #webzine {
 	height: 100vh;
 }
+#little-simz {
+	height: 300px;
+	width: auto;
+}
+.little-simz {
+	text-align: justify;
+}
+#romeo {
+	height: 100px;
+	width: auto;
+}
+#doums {
+	height: 100px;
+	width: auto;
+}
+#future {
+	height: 100px;
+	width: auto;
+}
+.articles {
+	padding-left: 10px;
+}
+.marge-a {
+	margin-top: 10px;
+}
+
 #quisommesnous {
 	text-align: justify;
 	
 }
 
-#contact {
-	height: 100vh;
-	color: #FFFFFF;
-	background-color: black;
-	height: 100vh;
-}
 .mep {
 	padding-right: 50px;
 	padding-left: 80px;
@@ -100,16 +129,10 @@ background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+
 	width: auto;
 	margin-bottom: 50px;
 }
-.contact {
-	color: white;
+#questionnaire {
+	height: 90vh;
 }
-#DH-contact {
-	width: 500px;
-	height: 500px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .réseaux {
 	width: 60px;
 	height: 60px;
@@ -138,9 +161,9 @@ background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+
 
 #footer {
 	text-align: center;
-	margin-top: -100px;
+	color: #FFFFFF;
+	background-color: black;
 }
-
 ul {
-list-style-type: none;
+	margin:0px;
 }
